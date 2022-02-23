@@ -138,7 +138,7 @@ namespace Agenda_Lista_Encadeamento_Duplo
                                 tipoescolhido = "Invalido";
                                 break;
                         }
-                    } while ((tipo > 4) || (tipo < 1));
+                    } while ((tipo > 4) || (tipo < 1)); //só não entendi pq esse do while é igual ao de cima
                     do
                     {
                         Console.Write("Digite o DDD da sua cidade: ");
