@@ -40,7 +40,7 @@ namespace Agenda_Lista_Encadeamento_Duplo
                     Contato aux1 = Head;
                     do
                     {
-                        if (String.Compare(aux.Nome, aux1.Nome) > 0)
+                        if (String.Compare(aux.Nome, aux1.Nome) >= 0)
                         {
                             aux1 = aux1.Proximo;
                         }
@@ -225,8 +225,9 @@ namespace Agenda_Lista_Encadeamento_Duplo
                 {
                     cont++;
                     Console.WriteLine(aux.ToString());
-                    aux = aux.Proximo;
+                    
                 }
+                aux = aux.Proximo;
             }
 
             do
